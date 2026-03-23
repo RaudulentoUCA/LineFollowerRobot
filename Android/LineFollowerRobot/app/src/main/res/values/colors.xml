@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Jungle palette -->
+    <color name="jungle_bg_1">#071A12</color>
+    <color name="jungle_bg_2">#0E2A1E</color>
+
+    <color name="leaf_1">#1B5E20</color>
+    <color name="leaf_2">#2E7D32</color>
+    <color name="leaf_3">#43A047</color>
+
+    <color name="snake_dark">#0B3D2E</color>
+    <color name="snake_mid">#145A43</color>
+    <color name="snake_light">#2BB673</color>
+
+    <color name="accent_gold">#C9A227</color>
+    <color name="warning_red">#E53935</color>
+
+    <color name="text_primary">#EAF7F0</color>
+    <color name="text_secondary">#B7D6C6</color>
+
+    <color name="surface">#10261D</color>
+    <color name="surface_2">#163326</color>
+    <color name="stroke">#2F6A52</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PruebaYoutube" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colors -->
+        <item name="colorPrimary">@color/leaf_2</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+
+        <item name="colorSecondary">@color/snake_light</item>
+        <item name="colorOnSecondary">@color/jungle_bg_1</item>
+
+        <item name="colorTertiary">@color/accent_gold</item>
+
+        <item name="android:statusBarColor">@color/jungle_bg_1</item>
+        <item name="android:navigationBarColor">@color/jungle_bg_1</item>
+
+        <!-- Default text color -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Widgets look -->
+        <item name="buttonStyle">@style/JungleButton</item>
+        <item name="checkboxStyle">@style/JungleCheckbox</item>
+        <item name="spinnerStyle">@style/JungleSpinner</item>
+    </style>
+
+    <!-- Button -->
+    <style name="JungleButton" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/btn_snake</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Checkbox -->
+    <style name="JungleCheckbox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Spinner -->
+    <style name="JungleSpinner" parent="Widget.Material3.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/card_jungle</item>
+    </style>
+
+</resources>
